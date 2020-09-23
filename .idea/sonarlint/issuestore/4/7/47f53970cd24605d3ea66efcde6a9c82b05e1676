@@ -1,0 +1,17 @@
+
+h
+java:S20959"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(Ğ’Ñ‘ıÿÿÿÿ
+M
+java:S1854$"7Remove this useless assignment to local variable "res".(ØÏæ–
+T
+java:S18541">Remove this useless assignment to local variable "suffixName".(û¿ô
+U
+java:S1854;":Remove this useless assignment to local variable "length".(€ı¯´øÿÿÿÿ
+Z
+java:S2147E"DCombine this catch with the one at line 67, which has the same body.(ï­£Ä
+>
+java:S1481$"(Remove this unused "res" local variable.(ØÏæ–
+F
+java:S1481;"+Remove this unused "length" local variable.(€ı¯´øÿÿÿÿ
+E
+java:S14811"/Remove this unused "suffixName" local variable.(û¿ô
