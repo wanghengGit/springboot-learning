@@ -1,0 +1,21 @@
+
+?
+java:S26292"$Invoke method(s) only conditionally.(Ó˜óÅúÿÿÿÿ
+`	java:S112""FDefine and throw a dedicated exception instead of using a generic one.(€ËÅøÿÿÿÿ
+[
+java:S1128"ERemove this unused import 'java.util.concurrent.locks.ReentrantLock'.(òªø
+F
+java:S1128"0Remove this unused import 'javax.xml.soap.Node'.(Ñ³îù
+\
+java:S1128"GRemove this unused import 'org.aspectj.lang.annotation.AfterReturning'.(Ún
+B
+java:S1128",Remove this unused import 'java.nio.Buffer'.(î¦Ïî
+l
+java:S1128"VRemove this unused import 'org.springframework.web.context.request.RequestAttributes'.(¢“…°
+œ
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(™Ò± øÿÿÿÿ
+z
+java:S1149&"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(–ÄæÃşÿÿÿÿ
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(é÷§ª
+h	java:S100""NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€ËÅøÿÿÿÿ
