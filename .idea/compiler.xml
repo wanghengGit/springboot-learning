@@ -7,12 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springcloud-learning" />
-        <module name="springboot" />
         <module name="boot-quartz" />
         <module name="boot-mycat" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="springboot" target="1.8" />
       <module name="springboot-redis" target="1.8" />
     </bytecodeTargetLevel>
   </component>
