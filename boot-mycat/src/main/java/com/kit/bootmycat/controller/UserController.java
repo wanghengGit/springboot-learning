@@ -5,11 +5,11 @@ import java.util.List;
 
 import javax.annotation.Resource;
 
+import com.kit.bootmycat.model.Users;
+import com.kit.bootmycat.service.UsersService;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.lwl.boot.model.Users;
-import com.lwl.boot.service.UsersService;
 
 @RestController
 public class UserController {
