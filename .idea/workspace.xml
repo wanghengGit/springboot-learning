@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54433198-8c8e-4fc2-9a38-76503f4ef5b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/boot-mybatis/src/main/java/com/kit/demo/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-mybatis/src/main/java/com/kit/demo/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-mybatis/src/main/java/com/kit/demo/model/UserDomain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-mybatis/src/main/java/com/kit/demo/service/user/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-mybatis/src/main/java/com/kit/demo/service/user/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-mybatis/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-mybatis/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-mcep/src/main/java/com/kit/bootmcep/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-mcep/src/main/java/com/kit/bootmcep/dto/UserAvaterSaveInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-mybatis/src/main/java/com/kit/demo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-mybatis/src/main/java/com/kit/demo/BootMybatisApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,13 +58,15 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/boot-mybatis/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/boot-mcep/src/main/java/com/kit/bootmcep" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -81,18 +79,28 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.kit.bootmcep.dto" />
+      <recent name="com.kit.demo.dto" />
+      <recent name="com.kit.demo.controller" />
       <recent name="com.kit.bootquartz.dto" />
       <recent name="com.kit.bootquartz.annotation" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wangheng\research\projects\projects\springboot-learning\boot-mcep\src\main\java\com\kit\bootmcep" />
       <recent name="C:\wangheng\research\projects\projects\springboot-learning\boot-mybatis\src\main\resources" />
       <recent name="C:\wangheng\research\projects\projects\springboot-learning\boot-mybatis\src\main\java\com\kit\demo" />
       <recent name="D:\research\project\projects\springcloud-learning\boot-quartz\src\main\resources" />
       <recent name="D:\research\project\projects\springcloud-learning\boot-quartz\src\main\java\com\kit\bootquartz" />
-      <recent name="D:\research\project\projects\springcloud-learning\boot-mycat\src\main\resources" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.DemoApplication">
+    <configuration name="BootMcepApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="boot-mcep" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kit.bootmcep.BootMcepApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BootMycatApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="boot-mycat" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kit.bootmycat.BootMycatApplication" />
@@ -109,7 +117,7 @@
     </configuration>
     <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="boot-mybatis" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kit.demo.DemoApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kit.demo.BootMybatisApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -150,7 +158,7 @@
       <workItem from="1604189579860" duration="5046000" />
       <workItem from="1604195751449" duration="10000" />
       <workItem from="1604201576923" duration="370000" />
-      <workItem from="1604201956017" duration="1521000" />
+      <workItem from="1604201956017" duration="3425000" />
     </task>
     <servers />
   </component>
@@ -166,74 +174,82 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="170" y="266" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.680@0.0.1280.680" timestamp="1604201683065" />
-    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604154741905">
+    <state x="362" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1604209128654">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1604154741905" />
+    <state x="362" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680@0.0.1280.680" timestamp="1604209128654" />
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604208718738">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1604208718738" />
     <state x="400" y="95" key="FileChooserDialogImpl" timestamp="1604155722405">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="400" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1604155722405" />
-    <state width="1237" height="293" key="GridCell.Tab.0.bottom" timestamp="1604207430783">
+    <state width="1237" height="293" key="GridCell.Tab.0.bottom" timestamp="1604209300262">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="293" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1604207430783" />
-    <state width="1237" height="293" key="GridCell.Tab.0.center" timestamp="1604207430783">
+    <state width="1237" height="293" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1604209300262" />
+    <state width="1237" height="293" key="GridCell.Tab.0.center" timestamp="1604209300262">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="293" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1604207430783" />
-    <state width="1237" height="293" key="GridCell.Tab.0.left" timestamp="1604207430783">
+    <state width="1237" height="293" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1604209300262" />
+    <state width="1237" height="293" key="GridCell.Tab.0.left" timestamp="1604209300262">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="293" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1604207430783" />
-    <state width="1237" height="293" key="GridCell.Tab.0.right" timestamp="1604207430783">
+    <state width="1237" height="293" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1604209300262" />
+    <state width="1237" height="293" key="GridCell.Tab.0.right" timestamp="1604209300262">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="293" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1604207430783" />
-    <state width="1237" height="293" key="GridCell.Tab.1.bottom" timestamp="1604207430716">
+    <state width="1237" height="293" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1604209300262" />
+    <state width="1237" height="293" key="GridCell.Tab.1.bottom" timestamp="1604209300262">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="293" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1604207430716" />
-    <state width="1237" height="293" key="GridCell.Tab.1.center" timestamp="1604207430715">
+    <state width="1237" height="293" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1604209300262" />
+    <state width="1237" height="293" key="GridCell.Tab.1.center" timestamp="1604209300262">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="293" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1604207430715" />
-    <state width="1237" height="293" key="GridCell.Tab.1.left" timestamp="1604207430715">
+    <state width="1237" height="293" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1604209300262" />
+    <state width="1237" height="293" key="GridCell.Tab.1.left" timestamp="1604209300262">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="293" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1604207430715" />
-    <state width="1237" height="293" key="GridCell.Tab.1.right" timestamp="1604207430715">
+    <state width="1237" height="293" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1604209300262" />
+    <state width="1237" height="293" key="GridCell.Tab.1.right" timestamp="1604209300262">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="293" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1604207430715" />
-    <state width="1237" height="293" key="GridCell.Tab.2.bottom" timestamp="1604207430716">
+    <state width="1237" height="293" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1604209300262" />
+    <state width="1237" height="293" key="GridCell.Tab.2.bottom" timestamp="1604209300262">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="293" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1604207430716" />
-    <state width="1237" height="293" key="GridCell.Tab.2.center" timestamp="1604207430716">
+    <state width="1237" height="293" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1604209300262" />
+    <state width="1237" height="293" key="GridCell.Tab.2.center" timestamp="1604209300262">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="293" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1604207430716" />
-    <state width="1237" height="293" key="GridCell.Tab.2.left" timestamp="1604207430716">
+    <state width="1237" height="293" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1604209300262" />
+    <state width="1237" height="293" key="GridCell.Tab.2.left" timestamp="1604209300262">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="293" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1604207430716" />
-    <state width="1237" height="293" key="GridCell.Tab.2.right" timestamp="1604207430716">
+    <state width="1237" height="293" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1604209300262" />
+    <state width="1237" height="293" key="GridCell.Tab.2.right" timestamp="1604209300262">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="293" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1604207430716" />
-    <state x="121" y="0" key="SettingsEditor" timestamp="1604202033131">
+    <state width="1237" height="293" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1604209300262" />
+    <state x="301" y="51" key="RollbackChangesDialog" timestamp="1604208287209">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1604202033131" />
+    <state x="301" y="51" key="RollbackChangesDialog/0.0.1280.680@0.0.1280.680" timestamp="1604208287209" />
+    <state x="121" y="0" key="SettingsEditor" timestamp="1604208418478">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1604208418478" />
     <state x="321" y="73" width="638" height="534" key="find.popup" timestamp="1604155916039">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="321" y="73" width="638" height="534" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1604155916039" />
-    <state x="56" y="44" key="new project wizard" timestamp="1604194216952">
+    <state x="56" y="44" key="new project wizard" timestamp="1604208653741">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="56" y="44" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1604194216952" />
+    <state x="56" y="44" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1604208653741" />
     <state x="297" y="-6" width="672" height="676" key="search.everywhere.popup" timestamp="1604207124779">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

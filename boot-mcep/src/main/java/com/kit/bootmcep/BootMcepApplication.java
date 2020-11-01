@@ -1,15 +1,13 @@
-package com.kit.demo;
+package com.kit.bootmcep;
 
-import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@MapperScan("com.kit.demo.dao")
 @SpringBootApplication
-public class DemoApplication {
+public class BootMcepApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(DemoApplication.class, args);
+        SpringApplication.run(BootMcepApplication.class, args);
     }
 
 }
