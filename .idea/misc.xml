@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-redis/pom.xml" />
         <option value="$PROJECT_DIR$/boot-mycat/pom.xml" />
+        <option value="$PROJECT_DIR$/boot-mybatis/pom.xml" />
       </list>
     </option>
   </component>
