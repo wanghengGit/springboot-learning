@@ -4,11 +4,11 @@ import java.util.List;
 
 import javax.annotation.Resource;
 
+import com.kit.bootmycat.mapper.UsersMapper;
+import com.kit.bootmycat.model.Users;
+import com.kit.bootmycat.service.UsersService;
 import org.springframework.stereotype.Service;
 
-import com.lwl.boot.mapper.UsersMapper;
-import com.lwl.boot.model.Users;
-import com.lwl.boot.service.UsersService;
 
 @Service("usersService")
 public class UsersServiceImpl implements UsersService {

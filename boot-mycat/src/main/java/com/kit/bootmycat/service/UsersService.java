@@ -1,8 +1,9 @@
 package com.kit.bootmycat.service;
 
+import com.kit.bootmycat.model.Users;
+
 import java.util.List;
 
-import com.lwl.boot.model.Users;
 
 public interface UsersService {
 

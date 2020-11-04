@@ -1,8 +1,9 @@
 package com.kit.bootmycat.mapper;
 
+import com.kit.bootmycat.model.Item;
+
 import java.util.List;
 
-import com.lwl.boot.model.Item;
 
 public interface ItemMapper {
 

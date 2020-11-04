@@ -4,11 +4,10 @@ import java.util.List;
 
 import javax.annotation.Resource;
 
+import com.kit.bootmycat.mapper.ItemMapper;
+import com.kit.bootmycat.model.Item;
+import com.kit.bootmycat.service.ItemService;
 import org.springframework.stereotype.Service;
-
-import com.lwl.boot.mapper.ItemMapper;
-import com.lwl.boot.model.Item;
-import com.lwl.boot.service.ItemService;
 
 @Service("itemService")
 public class ItemServiceImpl implements ItemService {
