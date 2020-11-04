@@ -1,12 +1,0 @@
-
-\
-java:S1075"ARefactor your code to get this URI from a customizable parameter.(ôœô¦úÿÿÿÿ
-U
-java:S18542":Remove this useless assignment to local variable "length".(€ý¯´øÿÿÿÿ
-7
-java:S1116."Remove this empty statement.(Åñ­õþÿÿÿÿ
-Z
-java:S2147;"DCombine this catch with the one at line 57, which has the same body.(ï­£Ä
-F
-java:S14812"+Remove this unused "length" local variable.(€ý¯´øÿÿÿÿ
-V	java:S1255"<This block of commented-out lines of code should be removed.(±“‡Òÿÿÿÿÿ
