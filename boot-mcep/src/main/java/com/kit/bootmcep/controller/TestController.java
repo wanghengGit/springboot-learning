@@ -1,20 +1,25 @@
 package com.kit.bootmcep.controller;
 
-import com.kit.bootmcep.dto.UserAvaterSaveInfo;
-import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 /**
- * Created by Administrator on 2017/8/16.
+ * @author wangheng
+ * @date 2020/11/6
  */
-@Controller
-@RequestMapping(value = "/user")
+@RestController
+@RequestMapping("/test")
 public class TestController {
 
-    @PostMapping("/save")
-    public void save(@RequestBody UserAvaterSaveInfo saveInfo) {
-        System.out.println(saveInfo);
+    @GetMapping("/test")
+    public void test() {
+        System.out.println("hello world");
+    }
+
+    @PostMapping("/test2")
+    public void test2() {
+        System.out.println("hello world");
     }
 }
