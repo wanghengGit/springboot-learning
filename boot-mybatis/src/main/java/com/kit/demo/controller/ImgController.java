@@ -13,15 +13,17 @@ import java.awt.image.Raster;
 import java.io.*;
 
 /**
- * Created by Administrator on 2017/8/16.
+ * @author Kit
+ * @date 20210712
+ * 图片相关操作
  */
 @RestController
-@RequestMapping(value = "/test")
-public class TestController {
+@RequestMapping(value = "/img")
+public class ImgController {
 
 
     @GetMapping("/createImage")
-    public void createImage(@RequestParam("securityCode") String securityCode) throws IOException,FileNotFoundException{
+    public void createImage(@RequestParam("securityCode") String securityCode) {
         BufferedImage bufferedImage = ValidateCode.getImage(securityCode);
         try{
             File f = new File("F:\\data\\MyFile.png");
